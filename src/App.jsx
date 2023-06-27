@@ -46,7 +46,7 @@ function Footer(){
     
 }
 
-export default function Page() {
+ export default function Page() {//anything inside this function is regarded as a child of said function.
     return (
         <div>
             <Header />
