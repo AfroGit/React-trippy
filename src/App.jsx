@@ -14,7 +14,7 @@ Challenge:
 
 export default function App() {//anything inside this function is regarded as a child of said function.
     return (
-        <div>
+        <div className='container'>
             <Header />
             <Main />
             <Footer />
